@@ -38,7 +38,8 @@ public class WorldResetCommand implements CommandExecutor, TabExecutor {
             case 0:
                 commandSender.sendMessage(
                         WorldResetPlugin.PREFIX + "Plugin version " + plugin.getDescription().getVersion());
-                commandSender.sendMessage("https://www.spigotmc.org/resources/");
+                commandSender.sendMessage(
+                        "https://www.spigotmc.org/resources/worldreset-reset-your-worlds-back-into-the-original-form.91894/");
                 break;
             case 1:
                 switch (arguments[0].toLowerCase()) {
