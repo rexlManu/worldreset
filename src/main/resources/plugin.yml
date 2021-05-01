@@ -1,0 +1,9 @@
+main: de.rexlmanu.worldreset.WorldResetPlugin
+name: WorldResetPlugin
+author: rexlManu
+version: 1.0
+
+commands:
+  worldreset:
+    aliases: wr
+    permission: worldreset.command.main
